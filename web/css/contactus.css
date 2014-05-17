@@ -1,0 +1,113 @@
+@font-face {
+  font-family: '104-CAI978'; 
+  /*src: url('089-CAI978.ttf'); */
+  src: url('104-CAI978.eot'); 
+  src: url('104-CAI978.eot?#iefix') format('embedded-opentype'),
+    url('104-CAI978.ttf') format('truetype');
+  }
+
+#contactus h1 {
+  font-family: '104-CAI978'; 
+} 
+
+.contact_table {
+	float: left;
+	width: 425px;
+}
+
+
+.ll {
+	width: 20%;
+	text-align: left;
+	font-weight: 100;
+	float: left;
+	background-color: #E0DDD6;
+  font-family: '104-CAI978'; 
+}
+
+.rr {
+	width: 80%;
+	float: left;
+	background-color: #D1CEC5;
+}
+
+.contact_table ul li.name {
+	width: 100%;
+	line-height: 35px;
+	height: 48px;
+}
+
+.contact_table ul li.message {
+	width: 100%;
+	line-height: 98px;
+	height: 98px;
+}
+
+.contact_table ul li.sent {
+	width: 100%;
+	line-height: 40px;
+	height: 40px;
+}
+
+input.input_text {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background-color: #D1CEC5;
+	height: 35px; 
+	width: 340px; 
+	font-size: 20px; 
+}
+
+input#submit {
+	border: 0;
+	background-color: #9F9D91;
+	font-size: 20px; 
+	height: 30px; 
+	margin-left: 250px;
+  margin-top: 4px;
+	padding-left: 13px; 
+	padding-right: 13px; 
+}
+
+textarea {
+	border: 0;
+	background-color: #D1CEC5;
+	width: 340px; 
+	font-size: 16px; 
+	height: 98px;
+}
+
+.sent .rr {
+  height: 40px; 
+  font-family: '104-CAI978'; 
+} 
+
+.copyright {
+	float: right; 
+	color: #B5CCB8; 
+	height: 25px; 
+	line-height: 25px; 
+	font-size: 13px; 
+}
+
+/****** contact_eg right ************/
+.contact_eg{
+  margin:0;
+  padding:0;
+ 	float: left;
+	width: 50%;
+  line-height:2;
+  font-family: '104-CAI978'; 
+}
+.eg_left{
+  float:left;
+  width:20%;
+  color:#A8BF93;
+  padding-left:10px;
+}
+.eg_right{
+  float:left;
+  width:77%;
+  color:#BEC1B9;
+}

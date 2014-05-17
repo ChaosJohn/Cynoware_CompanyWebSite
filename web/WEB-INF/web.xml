@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <servlet>
+        <servlet-name>testServlet</servlet-name>
+        <servlet-class>com.cynoware.test.testServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testServlet</servlet-name>
+        <url-pattern>/testServlet.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>listServlet</servlet-name>
+        <servlet-class>company.servlet.testShows</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>listServlet</servlet-name>
+        <url-pattern>/testShows.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewProductById</servlet-name>
+        <servlet-class>company.servlet.viewProductById</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewProductById</servlet-name>
+        <url-pattern>/viewProductById.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ContactUs</servlet-name>
+        <servlet-class>company.servlet.ContactUs2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContactUs</servlet-name>
+        <url-pattern>/contactus.do</url-pattern>
+    </servlet-mapping>
+</web-app>

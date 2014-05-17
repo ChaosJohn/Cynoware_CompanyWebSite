@@ -1,0 +1,157 @@
+html, body, div {
+  border: 0 none; 
+  margin: 0; 
+  padding: 0; 
+  vertical-align: baseline; 
+} 
+
+body {
+  background: none repeat scroll 0 0 #E5E2D1; 
+  /*font-family: '089-CAI978'; */
+  min-width: 960px; 
+} 
+
+@font-face {
+  font-family: '089-CAI978'; 
+  src: url('089-CAI978.eot'); 
+  src: url('089-CAI978.eot?#iefix') format('embedded-opentype'), url('089-CAI978.ttf') format('truetype');
+}
+
+a:focus {
+  outline: none; 
+} 
+
+.maxMiddle {
+  margin-left: auto; 
+  margin-right: auto; 
+  max-width: 960px; 
+} 
+
+.menubar {
+  filter: alpha(opacity=80); 
+  background-color: #EEEEEE; 
+  opacity: 0.8; 
+  width: 100%; 
+  height: 40px; 
+  top: 0; 
+  left: 0; 
+  position: fixed; 
+  visibility: hidden; 
+} 
+
+.menubar .maxMiddle {
+  height: 40px; 
+  width: 960px; 
+} 
+
+#back {
+  height: 32px; 
+  width: 103px; 
+  position: fixed; 
+  left: 0; 
+  float: left; 
+  margin-left: 13px; 
+  margin-top: 4px; 
+  margin-bottom: 4px; 
+} 
+
+#logo {
+  height: 21px; 
+  width: 170px; 
+}
+
+#productInfo {
+  height: 200px; 
+  /*background-color: #654321; */
+} 
+
+#product_sign {
+  height: 100px; 
+  line-height: 50px; 
+  font-size: 45px;
+}
+
+#product_sign p {
+  font-size: 45px; 
+  font-weight: 100; 
+  height: 50px; 
+  line-height: 50px; 
+}
+
+#product_splite_line {
+  height: 1px; 
+  width: 200px; 
+  background-color: #000000; 
+} 
+
+#product_name {
+  font-size: 20px; 
+  font-family: '089-CAI978'; 
+  margin: 10px; 
+}
+
+#productImages {
+  height: 600px; 
+  margin-top: 13px; 
+  /*background-color: #765432; */
+} 
+
+#product_image_show {
+  height: 527px; 
+  width: 600px; 
+  float: left; 
+  /*background-color: #876543; */
+} 
+
+#product_image_gallery {
+  height: 527px; 
+  width: 300px; 
+  float: right; 
+  /*float: left; */
+  position: relative; 
+  margin-left: 60px; 
+  /*background-color: #987654; */
+} 
+
+#product_image_gallery_introduction {
+  width: 100%; 
+  height: 36%; 
+  /*background: #FEDCBA; */
+}
+
+#product_image_gallery_container {
+  position: absolute; 
+  width: 100%; 
+  height: 64%; 
+  bottom: 0; 
+  /*background: #EDCBA9; */
+}
+
+#product_type_color {
+  height: 30px; 
+  width: 200px; 
+  margin-top: 20px; 
+  float: left; 
+  margin-left: 400px; 
+  /*background-color: #A98765; */
+} 
+
+#productDataSheet {
+  margin-top: 25px; 
+} 
+
+#product_tab {
+  height: 54px; 
+  width: 100%; 
+  /*background-color: #BA9876; */
+} 
+
+#product_datasheet {
+  /*height: 620px; */
+  width: 100%; 
+  /*background-color: #CBA987; */
+}
+
+#productBottom {
+  height: 64px; 
+}
